@@ -69,6 +69,31 @@ grid-template-rows:  1fr;
   }
 
 
+.animering-box1{
+
+  grid-row: 1/2;
+   grid-column: 1/-1;
+
+}
+.animering-box2{
+  @include  component.layout(2/3, true);
+}
+.animering-box3{
+  @include  component.layout(3/4, true);
+}
+.animering-box4{
+  @include  component.layout(4/5, true);
+}
+.animering-box5{
+  grid-row: 5/6;
+  grid-column: 1/-1;
+  background-color: component.$darkGreen;
+  color: component.$white;
+  margin-top: 2em;
+  padding: 2em;
+}
+
+
 }
    
    /* Put elements on grid-row and grid-column when below 1200px also give margin-top,backgroun-color,color and paddding to same elements,  */
