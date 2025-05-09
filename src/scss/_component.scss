@@ -21,3 +21,69 @@ padding: 2em;
 }
 }
 /* mixin with two argument and store (grid-colum,margin-left, margin-right , margin-top) with if that store padding  */
+
+
+@keyframes circle {
+0%{
+background-color: yellow;
+transform: translate(0px ,  160px) scale(1,1);
+
+
+}
+25%{ 
+    background-color: blue;
+    transform: translate(40px ,  120px) scale(1.5,1.5)
+
+}
+
+50%{
+background-color: green;
+transform: translate(80px ,  80px)scale(2,2)
+}
+
+75% {
+background-color: red;
+transform:  translate(120px ,  40px)scale(2.5,2.5)
+}
+
+100% {
+
+    background-color: yellow;
+    transform: translate(160px ,  0px)  scale(3,3);
+ 
+}
+}
+
+
+@keyframes shadow{
+0%, 100%{
+    text-shadow: 4px 4px 4px rgb(255, 0, 0);
+
+}
+
+25%, 75% {
+
+    text-shadow: 6px 6px 6px rgb(0, 0, 255);
+
+}
+
+50% {
+    text-shadow: 8px 8px 8px black;
+
+}
+
+}
+
+@keyframes rotate{
+
+from {
+transform: rotate(0deg);
+
+}
+
+
+to {
+transform: rotate(360deg) scale(0.5, 0.5);
+
+}
+}
