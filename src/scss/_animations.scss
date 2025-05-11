@@ -6,7 +6,7 @@ height: 50px;
 width: 50px;
 border-radius: 50%;
 animation-name: circle;
-animation-duration: 7s;
+animation-duration: 4s;
 animation-iteration-count:infinite;
 transition-timing-function: linear;
 animation-direction: alternate;
@@ -14,7 +14,8 @@ animation-direction: alternate;
 
 
 }
-
+/* make element height 50px width 50px and round)  */
+/* Give it animation,  duration 4s, count infinite (dont stop), transition linear (same speed) and direction from start to end then end to start. (use keyframes name circle)  */
 .text_shadow{
 animation-name: shadow;
 animation-duration: 5s;
@@ -24,16 +25,16 @@ animation-direction: alternate;
 
 
 }
-
+/* Give it animation,  duration 5s, count infinite (dont stop), transition linear (same speed) and direction from start to end then end to start. (use keyframes name shadow)  */
 
 .button_one{
-background-color: rgb(11, 58, 11);
+background-color: rgb(1, 18, 94);
 color: white;
 padding: 3em;
 text-align: center;
 font-size: 1em;
 }
-
+/* give button_one  background color,color,padding and text-align  */
 
 .button_one:hover{
     animation-name: rotate;
@@ -43,3 +44,5 @@ font-size: 1em;
 
 
 }
+
+/* Give it animation,  duration 1s, count 3 (stop after 3 times), transition linear (same speed). (use keyframes name rotate) .  this happens when hover over button_one  */
